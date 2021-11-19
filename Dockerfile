@@ -1,5 +1,5 @@
 # Builder
-FROM arm32v7/golang as builder
+FROM arm64v8/golang as builder
 
 MAINTAINER Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
 
