@@ -90,7 +90,7 @@ spec:
     spec:
       automountServiceAccountToken: false
       containers:
-      - image: cadvisor-RM:latest
+      - image: cadvisor-arm:latest
         name: cadvisor
         ports:
         - containerPort: 8080
