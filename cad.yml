@@ -92,6 +92,7 @@ spec:
       containers:
       - image: cadvisor-arm:latest
         name: cadvisor
+        imagePullPolicy: Never
         ports:
         - containerPort: 8080
           name: http
