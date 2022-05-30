@@ -90,9 +90,8 @@ spec:
     spec:
       automountServiceAccountToken: false
       containers:
-      - image: cadvisor-arm:latest
+      - image: hiltonws/cadvisor-arm:latest
         name: cadvisor
-        imagePullPolicy: Never
         ports:
         - containerPort: 8080
           name: http
